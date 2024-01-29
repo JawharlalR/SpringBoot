@@ -23,6 +23,7 @@ private String deptName;
 private long employeesCount;
 private String email;
 private long contact;
+private String projectName;
 
 
 @ManyToOne
@@ -97,6 +98,14 @@ public void setContact(long contact) {
 
 public void setOrganization(String string) {
 	
+}
+
+public String getProjectName() {
+	return projectName;
+}
+
+public void setProjectName(String projectName) {
+	this.projectName = projectName;
 }
 
 
